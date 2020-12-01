@@ -1,0 +1,16 @@
+root로 사용자 바꿔서 gcc패키지 설치하고 나와서
+j 로 돌아와
+
+gcc t.c
+ls
+
+a.out 생김
+
+눈에 바로 보여서 a.out 누르면 command not found 뜸
+
+./a.out 해야 실행돼
+
+검색할때마다 ./ 치기 귀찮으니까 
+맨처음에 
+PATH=$PATH:.
+이렇게 써놔

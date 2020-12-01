@@ -1,0 +1,34 @@
+root로 로그인
+vi /etc/bashrc
+:se nu			행 번호 붙이기
+41번째 \W를 \w로 바꿔주기	w에 커서 깜빡일때 ~눌러줘
+esc 누르고
+:wq    			저장 
+
+다시 로그인 
+
++++++
+
+cd /usr/local.
+cd /var/mail/
+cd ~		어디에 있든지 home으로 
+echo $HOME	home/j 표시해줘
+cd 		아무것도 하지 않으면  home으로 돌아간다
+
+-----
+
+cd /		루트 디렉토리
+ls
+
+-----
+
+상위 폴더로 들어가려면
+cd /boot
+
+
+
+
+
+
+
+

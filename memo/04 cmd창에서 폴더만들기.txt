@@ -1,0 +1,32 @@
+mkdir c:Waaa
+dir
+
+cd c:Waaa
+dir
+
+c:Waaa>mkdir d1
+c:Waaa>dir
+
+mkdir d2 d3 d4
+dir
+
+cd d1
+mkdir d1_1
+
+한번에 생성 완료
+
+.은 자기 자신/제자리
+..은 부모 디렉토리
+
+cd .	그대로
+cd ..	상위 dir로 이동
+
+cd ../../../ 총 세번 위로 올라감
+
++++++
+
+
+Waaa>d1폴더에 linux.txt만들고 내용 리눅스는 사랑입니다. 저장
+
+d1에서 dir 누르면 txt파일 생긴거 보이고 (<DIR> 없음)
+d1>type linux.txt 엔터하면 안의 내용이 보임.

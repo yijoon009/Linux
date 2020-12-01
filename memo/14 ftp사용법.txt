@@ -1,0 +1,54 @@
+<접속>
+
+ftp ftp.kaist.ac.kr
+ftp
+
+ls
+cd apache/http
+pwd
+ls
+get (선택하고) 우클릭
+bye
+ls
+
+끝
+
+--------------------------
+
+<압축>
+
+gzip  -- gunzip
+xz - unxz 
+tar  cfz - tar xfz 
+*cfz=creat file gzip
+
+(cd ./down 에 y로 저장함)
+
+(ls -l 은 파일크기 잘 가늠 안돼.
+ ll -h 는 파일크기 메가바이트, 키로바이트로 표기돼)
+
+-gzip (압축할거 이름)
+-xz (압축할거 이름)	<<더 작게 압축해줘 
+-tar cfz hh.tar.gz(이름.확장명) httpd-2.4.46(이름)	뒤에 디렉토리를 앞에 이름으로 묶어서압축
+
+
+<압축풀기>
+
+gunzip y.gz(압축풀거 파일명까지)
+unxz y.xz(확장자까지 다 써)
+tar xfz h.tar.gz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

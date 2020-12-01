@@ -1,0 +1,35 @@
+생성	mkdir, rmdir, vi, cat, touch
+	rmdir보다는 rm -r을 자주쓴다
+
+복사	cp
+삭제	rm
+이동	mv
+이름바꾸기	rename
+
+-----
+
+vi
+~~보여줘
+
+-----
+
+cat aa
+cat에 들어있는 aa보여줘
+
+cat > aa
+~
+~
+~
+^D
+
+~~~이 aa에 들어간다
+
+-----
+
+
+link file
+-hard link = reference 변수
+-soft link(symbolic link) = pointer 변수/바로가기 아이콘
+
+cp a b (a를 b에 새로 복사)
+ln a c (c는 reference 변수/c는 a를 가르키고 있다.)

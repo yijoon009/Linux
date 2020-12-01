@@ -1,0 +1,55 @@
+root - r
+j - j
+
+rpm -qa | nl ==> package 설치 수 303개
+df -h ==> 하드디스크 파티션 정보
+
+
++++++
+
+
+ssh-server, putty - 원격 접속
+웹서버(아파치)		/	웹 클라이언트(브라우저)
+-서비스를 해주는게 서버	/	-서비스를 받는 컴퓨터
+ssh-server		/	putty
+서버			/	클라이언트
+
+
++++++
+
+
+putty 환경설정
+
+화면 깨끗이 할때 : clear
+날짜 : date
+캘린더: cal
+호스트 이름 : hostname
+
+[j@it ~] 뒤에 # 이면 super user
+	     $ 는  일반사용자
+
+mkdir : make directory
+mkdir /ace ==>일반 사용자는 권한이 없다.
+
+echo : 너 집이 어디니/ 어디사니
+
+
++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

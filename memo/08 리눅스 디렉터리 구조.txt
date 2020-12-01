@@ -1,0 +1,23 @@
+ll /
+
+bin 은 실행파일 관련
+boot 는 부팅관련, 커널
+dev 장치파일/ 키보드 모니터 하드디스크 usb
+etc 설정파일(중요)
+home
+lib 공유 라이브러리
+media 씨드롬
+mnt 
+opt 리눅스 이외
+proc 메모리 상태
+root
+sbin 수퍼유저빈
+sys
+tmp 임시 디렉토리
+usr unix system resource / 프로그램 파일즈
+var 가변적 디렉토리, 웹서비스 http...
+
+ 
+
+
+

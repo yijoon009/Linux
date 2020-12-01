@@ -1,0 +1,120 @@
+date : 날짜
+cal : 달력
+cal 2020 : 전체 달력
+cal 8 1996 : 1996년 8월 달력
+w : 뭐하고 있는지
+users : 현재 누가 있는지
+arch : architecture/현재 컴퓨터 사양
+logname : 로그인 한 이름
+id
+id j
+id j -u : 유저 아이디
+id j -g : 그룹 아이디
+Ctrl l : 화면 지우기
+uname : unix 이름이 뭐니
+hostname : 컴퓨터 이름
+hostname -d : (domain)도메인 보여주기
+hostname -TT : 도움말
+hostname --help : 도움말
+
+커서에 화살표 위 누르면 이전에 입력했던 명령어 표시
+
+cd		change directory
+ls		list
+-----
+
+mkdir ddd
+ls
+aaa ddd		ddd는 파랑으로 나오는데 디렉토리 이름
+
+touch bbb	touch는 건들지 않고 비어있는 파일을 만들 수 있다.
+ls
+aaa bbb ddd	bbb는 흰색(파일), 파란색은 디렉토리
+
+cd ddd
+ls
+ls -al		-al 자세하게, 길게 보여달라
+
+pwd		현재 위치 print working directory
+
+삭제하려면 rmdir d1000
+rmdir r10
+디렉터가 비어있지 않음
+
+억지로 삭제할땐
+rm -rf d10
+
+
+mkdir d{1..5}
+ls
+
+
++++++
+
+
+
+-r	recursive
+	하위 dir 포함
+
+-i	interactive
+	대화형 모드
+
+-f	force
+	강제
+
+-----
+
+ls	.이 생략
+ls.	현재 dir
+ls..	부모 dir
+
+ls /
+ls /etc
+ls /ect /var
+ls /etc /var /bin
+
+-----
+
+<옵션>
+
+ls -a
+ls -a -l
+ls -a /etc
+ls / -alf
+
+-----
+
+ls [option] ...	
+
+1. 대괄호가 있으면 옵션은 생략 가능
+2. ...은 중복 허용
+
+-----
+
+cp src des
+src를 des로 복사해라.
+
++++++
+
+도움말 보는 방법
+
+man ls
+man 명령어
+명령어 --help
+
+info 명령어	정보보기
+
+q : 도움말을 종료
+
+옵션에서
+
+[] : 생략가능
+... : 중복 허용
+
+
+
+
+
+
+
+
